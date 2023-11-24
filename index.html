@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="./Folders/Assets/Images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">VibeCine</title>
+    <link rel="stylesheet" href="./StyleSheet.css">
+    <script src="./JavaScript.js"> </script>
+</head>
+<body style="background-image:url(https://i.pinimg.com/736x/1a/d3/2c/1ad32ca2e24a35fa35d4075c1f3a1c9e.jpg); 
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;" >
+    <audio src="./Folders/Assets/Sounds/Sound2.mp3" autoplay controls hidden></audio>
+    <p class="slogan">
+
+        Everything for everybody !
+
+    </p>
+
+    <dialog class="dialog5" id="DMS">
+
+        Choose your Season ! <button class="btn" onclick="DMS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1DMSchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2DMSchoosed()">
+            Season 2
+        </button>
+
+        <p>
+            Watch The Trailer !
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G9MJjAArKBk?si=HXZxHe-X8cOwcFIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="DMS"></iframe>
+
+    </dialog>
+    <dialog id="TB" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="TB.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1TBchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2TBchoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season3TBchoosed()">
+            Season 3
+        </button>
+        <p>
+            Watch The Trailer !
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M1bhOaLV4FU?si=9Sou_Qv9asSe7Ip8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="DMS"></iframe>
+
+    </dialog>
+    <dialog id="Y" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="Y.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1Ychoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2Ychoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <p>
+            Watch The Trailer !
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3COY_HrMngc?si=UlJpCeE9LsiiFfz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="DMS"></iframe>
+      
+
+    </dialog>
+    <dialog id="SH" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="SH.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1SHchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2SHchoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season3SHchoosed()">
+            Season 3
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season4SHchoosed()">
+            Season 4
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season5SHchoosed()">
+            Season 5
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season6SHchoosed()">
+            Season 6
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season7SHchoosed()">
+            Season 7
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season8SHchoosed()">
+            Season 8
+        </button>
+        <p>
+            Watch The Trailer !
+        </p>
+
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=9tvkYS5cA58&pp=ygUSU2hhbWVsZXNzIHRyYWlsZXIg">
+            Click To watch the Trailer !
+        </a>
+      
+
+    </dialog>
+    <dialog id="PB" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="PB.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="season1PBchoosed()">
+            Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="season2PBchoosed()">
+            Season 2
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season3PBchoosed()">
+            Season 3
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season4PBchoosed()">
+            Season 4
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season5PBchoosed()">
+            Season 5
+        </button>
+        <br>
+        <br>
+        <button class="btn" onclick="season6PBchoosed()">
+            Season 6
+        </button>
+        <br>
+        <br>
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U&pp=ygUWcGVha3kgYmxpbmRlcnMgdHJhaWxlcg%3D%3D">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="GHS" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="GHS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="GHSallChoosed()">
+            all Episodes
+        </button>   
+        
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=8i3Xvs4R0WY&pp=ygUZZ29kIG9mIGhpZ2hzY2hvb2wgdHJhaWxlcg%3D%3D">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="MS" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="MS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="MSAllChoosed()">
+            all Episodes
+        </button>   
+        
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=_z6rvtx3tps&pp=ygUHTWFzaGxlIA%3D%3D">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="KA" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="KA.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="KAchoosedOne()">
+           Season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="KA2choosedOne()">
+            Season 2
+         </button>  
+        
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=QOBHUm6I5lw&pp=ygUWa2VuZ2FuIGFzaHVyYSBzZWFzb24gMw%3D%3D">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="HP" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="HP.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="HPchoosedall()">
+           All Episodes
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=aaHZdwPZX6g&pp=ygUYaGVsbCdzIHBhcmFkaXNlIHRyYWlsZXIg">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="MHS" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="MHS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="MHSchoosed6()">
+            Season 6
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=9Y_eKiT-irU&pp=ygUMTUhBIHRyYWlsZXIg">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="CH" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="CH.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="CHchoosedall()">
+            All episodes
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=l96zmDlWCBk&pp=ygUNY2hhaW5zYXcgbWFuIA%3D%3D">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+    <dialog id="DS" class="dialog5">
+
+        Choose your Season ! <button class="btn" onclick="DS.close()">
+
+            X
+
+        </button>
+
+        <br>
+        <br>
+
+        <button class="btn" onclick="DSchoosed1()">
+            season 1
+        </button>   
+        <br>
+        <br>
+        <button class="btn" onclick="DSchoosed2()">
+            season 2
+        </button>   
+        <br>
+        <br>
+       
+        <p>
+            Watch The Trailer !
+        </p>
+        Video Not found :(
+
+        Adress : <a href="https://www.youtube.com/watch?v=S6OmSIxSj14&pp=ygUQZHIgc3RvbmUgdHJhaWxlcg%3D%3D">
+            Click To watch the Trailer !
+        </a>
+
+      
+
+    </dialog>
+     <div class="container">
+
+        <img src="https://wallpapers.com/images/featured/demon-slayer-pictures-tsbyd3y88kxirm15.jpg" alt="https://wallpapers.com/images/featured/demon-slayer-pictures-tsbyd3y88kxirm15.jpg" class="Movie" onclick="DMS.showModal()">
+        <p class="defonitions">
+           Demon Slayer 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/bIhBfETz8tfaZNyWrEU2AfbXWOg69tbhR8A1r9DraAE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/cHYtdGFyZ2V0LWlt/YWdlcy80NDRmZDEz/OGU1MzdjOTZiZjhk/ZjUzYjkwNGIxMWUy/NDgxNzQwZTMwNGU3/ZDdlNTFhMTQwM2Ux/ZDdiY2EyOThiLmpw/Zw" alt="https://imgs.search.brave.com/bIhBfETz8tfaZNyWrEU2AfbXWOg69tbhR8A1r9DraAE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/cHYtdGFyZ2V0LWlt/YWdlcy80NDRmZDEz/OGU1MzdjOTZiZjhk/ZjUzYjkwNGIxMWUy/NDgxNzQwZTMwNGU3/ZDdlNTFhMTQwM2Ux/ZDdiY2EyOThiLmpw/Zw" class="Movie" onclick="TB.showModal()">
+        <p class="defonitions">
+           The BOYS
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/fc-QKVnGZsCqRbtMTLXUMd515XlvPvpomRiyeUEwkBI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kbm0u/bmZseGltZy5uZXQv/YXBpL3Y2L0J2VmJj/Mld4cjJ3NlF1b0FO/b1NwSktFSVdqUS9B/QUFBUVdNUms0S19r/ZTI3b0tISjlxVlFQ/NHhoU3NSQjFhR3Y0/V3V4SHp3d3RoWTN5/cjI4QW1aTkJyUmwz/RUNrd1drc1lnQkhO/RXFmMkRqOEhCNjFE/WFp4TndLMGVOcUpE/a1ZWYnVwY1R5SlYw/aWdNbVU2MWwyYk00/N1RXaldiRkZuOWgz/YUNWeTRVeUlUV1Nq/UFRYM2pOekxIenlB/aE0uanBnP3I9MmZl" alt="https://imgs.search.brave.com/fc-QKVnGZsCqRbtMTLXUMd515XlvPvpomRiyeUEwkBI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kbm0u/bmZseGltZy5uZXQv/YXBpL3Y2L0J2VmJj/Mld4cjJ3NlF1b0FO/b1NwSktFSVdqUS9B/QUFBUVdNUms0S19r/ZTI3b0tISjlxVlFQ/NHhoU3NSQjFhR3Y0/V3V4SHp3d3RoWTN5/cjI4QW1aTkJyUmwz/RUNrd1drc1lnQkhO/RXFmMkRqOEhCNjFE/WFp4TndLMGVOcUpE/a1ZWYnVwY1R5SlYw/aWdNbVU2MWwyYk00/N1RXaldiRkZuOWgz/YUNWeTRVeUlUV1Nq/UFRYM2pOekxIenlB/aE0uanBnP3I9MmZl" class="Movie" onclick="Y.showModal()">
+        <p class="defonitions">
+            You 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/p5Qeqy0wwcNX_BAOj9nJCkJ5c2yZHLmml6HjDCV4JNs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U0L1NoYW1lbGVz/c18yMDExX0ludGVy/dGl0bGUucG5n" alt="https://imgs.search.brave.com/p5Qeqy0wwcNX_BAOj9nJCkJ5c2yZHLmml6HjDCV4JNs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U0L1NoYW1lbGVz/c18yMDExX0ludGVy/dGl0bGUucG5n" class="Movie" onclick="SH.showModal()">
+        <p class="defonitions">
+            ShameLess , like really !
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/jvMUQuMawE2Z0P0zYb9WVfRaclNqnWfqVh79phGsACg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy8zOTQ1/LXBidi0wOWphbjE5/YS0xNTY5MzQ0ODM0/LmpwZz9jcm9wPTF4/dzowLjgzNDE1NzE5/MjI4ODY4MDF4aDtj/ZW50ZXIsdG9wJnJl/c2l6ZT0xMjAwOio" class="Movie" onclick="PB.showModal()">
+        <p class="defonitions">
+            Peaky Blinders 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/we2spYaDK_rEmkUjW25_B2U32Dyk-aKSWiR48BNsYK4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnRo/ZWFuaW1lZGFpbHku/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIxLzA5L3RoZS1n/b2Qtb2YtaGlnaHNj/aG9vbC5qcGc_cmVz/aXplPTEwMjQsNTc2/JnNzbD0x" class="Movie" onclick="GHS.showModal()">
+        <p class="defonitions">
+            God of High School 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/Z2M4AFPQ8SEjewA-pvKcdvh-6TbXX_Im3gxGGhxmqvc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYW5pbWVjb3Ju/ZXIubWUvMjAyMy8w/Ni9NYXNobGVfUzJf/MTAtMS5wbmc" alt="https://imgs.search.brave.com/Z2M4AFPQ8SEjewA-pvKcdvh-6TbXX_Im3gxGGhxmqvc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYW5pbWVjb3Ju/ZXIubWUvMjAyMy8w/Ni9NYXNobGVfUzJf/MTAtMS5wbmc" class="Movie" onclick="MS.showModal()">
+        <p class="defonitions">
+           Mashle
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/rq3DQ1dkRToyXnLMwut64DCWKBGgkA4nYcG4CEtsqJc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1tRXpOVE5o/TnpVdE1qVm1OUzAw/WldGakxXSTJZell0/WkdOaU9UWmlaVFUy/TW1Wa1hrRXlYa0Zx/Y0dkZVFYUnlZVzV6/WTI5a1pTMTNiM0py/Wm14dmR3QEAuX1Yx/X1FMNzVfVVg1MDBf/Q1IwLDAsNTAwLDI4/MV8uanBn" class="Movie" onclick="KA.showModal()">
+        <p class="defonitions">
+           Kenga Ashura !
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/2YcRtcQurSZlilLwZ-kKHUCioQhagFoTsFqb6T7zwFw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDk4MzQ4/MjEuanBn" class="Movie" onclick="HP.showModal()">
+        <p class="defonitions">
+            Hell's Paradise 
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/6AYiuSvnCRNBad6bffS3ga_Yi_YjMc3d3O_EcQU3Of0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NzQw/ODAucG5n" class="Movie" onclick="MHS.showModal()">
+        <p class="defonitions">
+            My Hero Academia
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/QDV8ZusXFwbhQFLKbTuDQ7xN2RkoUnGqSs0yhZEYuCY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L2RI/ek5DOUNKTDc0bzdV/WjlHTHQ1d1MtMzIw/LTgwLmpwZw" class="Movie" onclick="CH.showModal()">
+        <p class="defonitions">
+            Chainsaw Man
+        </p>
+        <br>
+        <br>
+        <br>
+        <img src="https://imgs.search.brave.com/bPEmMJa4emfOCfRRZWenlLwm_t9re_xQVktAzMbGiIQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZHItc3RvbmUt/cGljdHVyZXMtcGJj/NThscTZ6OXd2ZWZz/ay5qcGc" class="Movie" onclick="DS.showModal()">
+        <p class="defonitions">
+            Dr.Stone
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <p class="muchmore">
+            Much More next week ! <br> Much More !!!!!!
+        </p>
+ 
+     </div>
+     <dialog id="shoppingBag" class="dialog5">
+
+        <p class="title3">
+
+            Your Shopping Cart          <button onclick="shoppingBag.close()" class="">  X  </button>
+
+        </p>
+
+        <br>
+        <br>
+        <p id="shoppingId"> 
+            Shopping ID : 
+           <p id="id">
+            ??-??-??-??-??-??
+           </p> 
+        </p>
+        <p>
+            Price : <p id="price">
+                150 <p>
+                    FDJ
+                </p>
+            </p>
+        </p>
+
+        <p id="firstSegment">
+            
+        </p>
+        
+
+
+
+
+     </dialog>
+     <style>
+        .Movie {
+
+            height: 120px;
+            border-radius: 20px;
+           
+
+        }
+        .Movie:active {
+
+            box-shadow: 10px 10px 10px  black ;
+  
+
+        }
+        .defonitions {
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: small;
+            font-weight: bold;
+            text-align: center;
+
+        }
+     </style>
+        
+    <div>
+        <div class="tab-container">
+            <img class="three-bars" onclick="threeBarsDialog.showModal()" src="https://cdn-icons-png.flaticon.com/512/10486/10486596.png" alt="https://cdn-icons-png.flaticon.com/512/10486/10486596.png">
+        </div>
+    </div>
+    <div class="icon-container" ">
+        <img src="./Folders/Assets/Images/logo.png" alt="   ./Folders/Assets/Images/logo.png" class="shopBag-icon">
+        <div>
+            <p class="shop-title">
+                Vibe Ciné
+            </p>
+            <img src="   https://cdn-icons-png.flaticon.com/512/1288/1288704.png " alt="   https://cdn-icons-png.flaticon.com/512/1288/1288704.png " class="shoppingBag-icon" onclick="shoppingBag.showModal()">
+        </div>
+        <dialog id="threeBarsDialog" class="popUp">
+
+
+            <a href="./Folders/Assets/info-tab.html">
+
+                <button class="info-btn" >
+
+                    Info !
+    
+                </button>
+
+
+            </a>
+
+            <br>
+            <br>
+
+                <a href="./Folders/Assets/TermsAndConditions/termsConditions.html">
+
+                    <button class="info-btn" >
+
+                        Terms and Conditions
+        
+                    </button>
+
+                </a>
+                <br>
+                <br>
+                <a href="./Folders/Assets/ComingSoonBtn/ComingSoon.html">
+
+                    <button class="info-btn" >
+
+                        Coming Soon !
+        
+                    </button>
+
+                </a>
+                <br>
+                <br>
+                
+            <button onclick="threeBarsDialog.close()" class="closebtn">
+
+                Close
+
+            </button>
+                
+                
+
+        </dialog>
+    </div>
+    
+     
+</body>
+</html>
